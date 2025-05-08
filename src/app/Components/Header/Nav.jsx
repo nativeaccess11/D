@@ -22,16 +22,7 @@ export default function Nav({ setMobileToggle }) {
               Pricing
               </Link>
             </li> 
-            <li>
-              <Link href="/team" onClick={() => setMobileToggle(false)}>
-               Our Team
-              </Link>
-            </li>            
-            <li>
-              <Link href="/team/team-details" onClick={() => setMobileToggle(false)}>
-                Team Details
-              </Link>
-            </li>                   
+                         
           </ul>
         </DropDown>
       </li>      

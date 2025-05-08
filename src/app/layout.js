@@ -18,15 +18,15 @@ const poppins = Poppins({
 
 export const metadata = {
   title: {
-    absolute: 'Drivesafe Mate Driving School',
-    default: 'Drivesafe Mate  Driving  chhol',
-    template: '%s | Drivesafe Mate Driving School',
+    absolute: 'DriveSafe Mate Driving School',
+    default: 'DriveSafe Mate Driving School',
+    template: '%s | DriveSafe Mate Driving School',
   },
-  description: 'Solutek - Technology & IT Solution NextJS Template',
+  description: 'DriveSafe Mate Driving School - Learn to drive with confidence and safety. Professional driving lessons tailored to your needs.',
   openGraph: {
-    title: 'Solutek - Technology & IT Solution NextJS Template',
-    description: 'Solutek - Technology & IT Solution NextJS Template',
-    image: '/openGraphImage.jpg',
+    title: 'DriveSafe Mate Driving School',
+    description: 'Learn to drive with confidence and safety at DriveSafe Mate Driving School. Professional instructors and flexible scheduling options.',
+    image: '/assets/images/openGraphImage.jpg', // Update with your actual image path
   },
 };
 
@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="author" content="Themeservices" />
+        <meta name="author" content="DriveSafe Mate Driving School" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className={`${fira_sans.variable} ${poppins.variable}`}>
